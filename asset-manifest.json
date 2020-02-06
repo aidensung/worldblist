@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/worldblist/static/css/main.46390604.chunk.css",
+    "main.js": "/worldblist/static/js/main.b29ad4df.chunk.js",
+    "main.js.map": "/worldblist/static/js/main.b29ad4df.chunk.js.map",
+    "runtime-main.js": "/worldblist/static/js/runtime-main.b51b0edd.js",
+    "runtime-main.js.map": "/worldblist/static/js/runtime-main.b51b0edd.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/worldblist/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.77c6424e.chunk.js": "/worldblist/static/js/2.77c6424e.chunk.js",
+    "static/js/2.77c6424e.chunk.js.map": "/worldblist/static/js/2.77c6424e.chunk.js.map",
+    "index.html": "/worldblist/index.html",
+    "precache-manifest.04f48a40d004a018ddb02937f683cd42.js": "/worldblist/precache-manifest.04f48a40d004a018ddb02937f683cd42.js",
+    "service-worker.js": "/worldblist/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/worldblist/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.46390604.chunk.css.map": "/worldblist/static/css/main.46390604.chunk.css.map",
+    "static/js/2.77c6424e.chunk.js.LICENSE.txt": "/worldblist/static/js/2.77c6424e.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/worldblist/static/media/Sunflower-Medium.c30ae2b3.woff",
+    "static/media/logo.svg": "/worldblist/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b51b0edd.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.77c6424e.chunk.js",
+    "static/css/main.46390604.chunk.css",
+    "static/js/main.b29ad4df.chunk.js"
+  ]
+}
