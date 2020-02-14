@@ -5,6 +5,23 @@
     src: local('Sunflower Medium'), url('Sunflower-Medium.woff') format('woff');
 }
 
+.brandname {
+
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  
+}
+
+.child {
+  position: relative;
+  background-color: transparent; 
+  background: rgba(255, 255, 255, 0.2);
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
 .App {
   text-align: center;
 }
