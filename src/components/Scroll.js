@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-const Scroll = (props) => {
+const Scroll = props => {
   return (
-    <div style={{ overflow: 'hidden', border: '5px', height: '800px'}}>
+    <div style={{ overflow: "hidden", border: "5px", height: "800px" }}>
       {props.children}
     </div>
   );

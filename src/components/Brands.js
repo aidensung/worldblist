@@ -1,74 +1,80 @@
+<<<<<<< HEAD
 import React from 'react';
 import Scroll from './Scroll';
+=======
+import React from "react";
+import Scroll from "./Scroll";
+>>>>>>> upstream/master
 
-import '../containers/App.css';
+import "../containers/App.css";
 
-const Brands = ( {name, id} ) => {
-	return (
-<div class="hide-child">Brand
-   <Scroll>
-    <div className="branddropdown"class="child">
-      <div>
-        <div> A-COLD-WALL* </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-        <div> A.P.C. </div>
-       </div>
-     </div>
-    </Scroll>
-  </div>
+const Brands = ({ name, id }) => {
+  return (
+    <div class="hide-child">
+      Brand
+      <Scroll>
+        <div className="branddropdown" class="child">
+          <div>
+            <div> A-COLD-WALL* </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+            <div> A.P.C. </div>
+          </div>
+        </div>
+      </Scroll>
+    </div>
   );
-}
+};
 
-export default Brands
+export default Brands;
