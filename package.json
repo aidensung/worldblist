@@ -19,6 +19,11 @@
     "supertest": "^4.0.2",
     "tachyons": "^4.11.1"
   },
+  { "husky": {
+    "hooks": {
+      "precommit": "pretty-quick--staged"
+    }
+  }},
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
