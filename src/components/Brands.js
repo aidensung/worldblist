@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-import React from 'react';
-import Scroll from './Scroll';
-=======
+
 import React from "react";
 import Scroll from "./Scroll";
->>>>>>> upstream/master
+
 
 import "../containers/App.css";
 

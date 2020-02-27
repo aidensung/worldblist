@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React from 'react';
 import { Route, NavLink, HashRouter} from "react-router-dom";
 import Home from './Home';
@@ -6,17 +6,6 @@ import About from './About';
 import Store from './Store';
 import Contact from './Contact';
 import Brands from './Brands';
-
-
-=======
-import React from "react";
-import { Route, NavLink, HashRouter } from "react-router-dom";
-import Home from "./Home";
-import About from "./About";
-import Store from "./Store";
-import Contact from "./Contact";
-import Brands from "./Brands";
->>>>>>> upstream/master
 
 const Navbar = () => {
   return (
