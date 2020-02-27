@@ -7,6 +7,8 @@ import Store from './Store';
 import Contact from './Contact';
 import Brands from './Brands';
 
+
+
 const Navbar = () => {
   return (
     <div>
