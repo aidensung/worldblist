@@ -12,29 +12,35 @@ class Brands extends Component {
       brandsAll: [
         {
           id: 1,
-          name: 'A.P.C.'
+          name: "Barbour"
         },
         {
           id: 2,
-          name: 'A-COLD-WALL*'
+          name: "A-COLD-WALL*"
+        },
+        {
+          id: 3,
+          name: 'A.P.C.'
         }
       ]
-    }
+    };
   }
+  
+  
 
-  render () {
-    return(
-    <div class="hide-child">
-      Brand
-      <Scroll>
-        <div className="branddropdown" class="child">
-         {this.state.brandsAll.map(brandsAll => (
-           <div key={brandsAll.id}> {brandsAll.name}</div>
-         ))}
-        </div>
-      </Scroll>
-    </div>
-   )
+  render() {
+    return   (
+          <div class="hide-child">
+            Brand
+            <Scroll>
+              <p className="branddropdown" class="child">
+                  {this.state.brandsAll.map(brandsAll =>  (
+                    <p key={brandsAll.id}> {brandsAll.name}</p>
+                  ))}
+              </p>
+            </Scroll>
+          </div>
+      );
   }
 }
 
