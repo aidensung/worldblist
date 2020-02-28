@@ -29,6 +29,16 @@ class Brands extends Component {
           id: 3,
 
           name: "A.P.C."
+        },
+        {
+          id: 4,
+
+          name: "DDD"
+        },
+        {
+          id: 5,
+
+          name: "ABC"
         }
       ]
     };
