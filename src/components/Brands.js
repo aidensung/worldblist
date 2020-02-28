@@ -4,38 +4,53 @@ import Scroll from "./Scroll";
 
 import "../containers/App.css";
 
+function sortBrands(a,b) {
+  const nameA = a.name.toUpperCase();
+  const nameB = b.name.toUpperCase();
+    return (nameA < nameB) ? -1 : (nameA > nameB) ? 1 : 0;
+}
 
 class Brands extends Component {
   constructor() {
-                  super();
-                  this.state = {
-                    brandsAll: [
-                      {
-                        id: 1,
-                        name: "Barbour"
-                      },
-                      {
-                        id: 2,
-                        name: "A-COLD-WALL*"
-                      },
-                      {
-                        id: 3,
-                        name: "A.P.C."
-                      }
-                    ]
-                  };
-                }
+    super();
+    this.state = {
+      brandsAll: [
+        {
+          id: 1,
+          name: "Barbour"
+        },
+        {
+          id: 2,
+          name: "Capsule"
+        },
+        {
+          id: 3,
+          name: "A.P.C."
+        }
+      ]
+    };
+  };
 
+  //This is for All of brands name
+  // componentDidMount() {
+    // fetch('API link for All brands')
+    //.then(response => response.json())
+    //.then(name => this.setState({ brandsAll: name}));
+  // }
+  
   render() {
     return (
       <div class="hide-child">
         Brand
         <Scroll>
-          <p className="branddropdown" class="child">
-            {this.state.brandsAll.map(brandsAll => (
+          <div className="branddropdown" class="child">
+            {this.state.brandsAll
+              .sort(sortBrands)
+              .map(brandsAll=> (
               <p key={brandsAll.id}> {brandsAll.name}</p>
-            ))}
-          </p>
+            ))
+          }
+          </div>
         </Scroll>
       </div>
     );
