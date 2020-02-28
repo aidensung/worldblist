@@ -3,10 +3,10 @@ import Scroll from "./Scroll";
 
 import "../containers/App.css";
 
-function sortBrands(a,b) {
+function sortBrands(a, b) {
   const nameA = a.name.toUpperCase();
   const nameB = b.name.toUpperCase();
-    return (nameA < nameB) ? -1 : (nameA > nameB) ? 1 : 0;
+  return nameA < nameB ? -1 : nameA > nameB ? 1 : 0;
 }
 
 class Brands extends Component {
@@ -16,19 +16,22 @@ class Brands extends Component {
       brandsAll: [
         {
           id: 1,
+
           name: "Barbour"
         },
         {
           id: 2,
+
           name: "Capsule"
         },
         {
           id: 3,
+
           name: "A.P.C."
         }
       ]
     };
-  };
+  }
 
   render() {
     return (
@@ -36,13 +39,8 @@ class Brands extends Component {
         Brand
         <Scroll>
           <div className="branddropdown" class="child">
-            {this.state.brandsAll
-              .sort(sortBrands)
-              .map(brandsAll=> (
-              <p key={brandsAll.id}> {brandsAll.name}</p>
-            ))
-          }
-          </div>
+            {this.state.brandsAll.sort(sortBrands).map(brandsAll  => (<p key={brandsAll.id}> {brandsAll.name}</p>
+            ))}</div>
         </Scroll>
       </div>
     );
