@@ -1,6 +1,6 @@
 import React from "react";
 
-import './about.styles.scss';
+import "./about.styles.scss";
 
 const About = () => (
   <div>
@@ -12,8 +12,10 @@ const About = () => (
       <li>Vestibulum vulputate</li>
       <li>Eget erat</li>
       <li>Id porttitor</li>
+      <li>Id porttitor</li>
     </ol>
   </div>
 );
 
 export default About;
+

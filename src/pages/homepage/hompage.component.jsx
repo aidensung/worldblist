@@ -1,9 +1,9 @@
 import React from "react";
 
-import './hompage.styles.scss';
+import "./hompage.styles.scss";
 
 const HomePage = () => (
-  <div className='homepage'>
+  <div className="homepage">
     <h2>HELLO</h2>
     <p>
       Cras facilisis urna ornare ex volutpat, et convallis erat elementum. Ut
@@ -17,3 +17,4 @@ const HomePage = () => (
 );
 
 export default HomePage;
+

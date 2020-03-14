@@ -1,6 +1,6 @@
 import React from "react";
 
-import './store.styles.scss';
+import "./store.styles.scss";
 
 const Store = () => (
   <div>
@@ -17,3 +17,4 @@ const Store = () => (
 );
 
 export default Store;
+
